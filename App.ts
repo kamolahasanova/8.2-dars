@@ -1,7 +1,7 @@
 interface User {
   name: string;
   familiya: string;
-  yosh: number;
+  yosh: string;
 }
 
 const users: User[] = [];
