@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8.2-dars</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form id="userForm">
+        <label>
+          <span>Ismingiz:</span>
+          <input
+            type="text"
+            id="name"
+            placeholder="Ismingizni kiriting"
+            required
+        /></label>
+        <label>
+          <span>Yoshingiz:</span>
+          <input
+            type="number"
+            id="age"
+            placeholder="Yoshingizni kiriting"
+            required
+        /></label>
+        <label>
+          <span>Familiyangiz:</span>
+          <input
+            type="text"
+            id="surName"
+            placeholder="Familyangizni kiriting"
+            required
+        /></label>
+
+        <button type="submit">ADD</button>
+      </form>
+    </div>
+    <div>
+      <h1 id="ism">name:</h1>
+      <h1 id="yosh">age:</h1>
+      <h1 id="familiya">surName:</h1>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
