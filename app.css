@@ -26,9 +26,8 @@ form {
     display: flex;
     gap: 4px;
     flex-direction: column;
-    span{
-        color:whitesmoke
-
+    span {
+      color: whitesmoke;
     }
   }
   input {
@@ -42,13 +41,23 @@ form {
   button {
     cursor: pointer;
     background-color: azure;
-    &:hover{
-        background-color: dimgray;
+    &:hover {
+      background-color: dimgray;
     }
     border-radius: 12px;
     border: none;
     padding: 6px;
     width: 30%;
     background-color: ;
+  }
+}
+
+#cardContainer {
+  margin-left: 15px;
+  display: flex;
+  gap: 10px;
+  h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
